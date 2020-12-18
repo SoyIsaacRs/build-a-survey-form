@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+
+#title,#description{
+    text-align: center;
+}
+
+#title{
+    margin: 40px 0 20px 0;
+}
+
+#description{
+    margin: 0 0 40px 0;
+}
+
+#survey-form{
+    width: 90%;
+    max-width: 500px;
+    background: #fff;
+    padding: 40px;
+    margin: auto;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0,0, 0.1);
+    border-radius: 5px;
+}
+
+#survey-form input[type="text"],
+#survey-form input[type="email"],
+#survey-form input[type="number"],
+#survey-form button,
+#survey-form textarea,
+#survey-form #dropdown,
+#survey-form .radio-group,
+#survey-form .checkbox-group{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#survey-form input[type="text"],
+#survey-form input[type="email"],
+#survey-form input[type="number"]{
+    border: none;
+    border-bottom:1px solid gray ;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+#survey-form .radio-group,
+#survey-form .checkbox-group{
+    display: flex;
+    justify-content: space-around;
+}
+
+#survey-form label{
+    margin-bottom: 20px;
+}
+
+#survey-form textarea{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 300px;
+}
+
+#survey-form button{
+    border: none;
+    background: #0099ff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+@media (max-width: 1199.98px) {
+
+}
+
+@media (max-width: 991.98px) { 
+
+}
+
+@media (max-width: 767.98px) { 
+
+}
+
+@media (max-width: 575.98px) {  
+    #survey-form .radio-group,
+    #survey-form .checkbox-group{
+        display: flex;
+        flex-direction: column;
+    }
+    #survey-form .radio-group .item,
+    #survey-form .checkbox-group .item{
+        margin-bottom: 20px;
+    }
+
+
+}
+
+

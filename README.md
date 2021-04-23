@@ -10,6 +10,10 @@
 
 Link to page: [https://soyisaacrs.github.io/build-a-survey-form/](https://soyisaacrs.github.io/build-a-survey-form/)
 
+<div align="center">
+
 ![Image of page](https://soyisaacrs.github.io/build-a-survey-form/resources/buildasurveyform.png)
+
+</div>
 
 <div align="right">Isaac from 2020 made this project</div>
